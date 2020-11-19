@@ -7,4 +7,5 @@ RUN yum update -y && yum -y install \
         curl \
         wget \
         unzip \
-        git
+        git \
+        netcat
