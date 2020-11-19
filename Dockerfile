@@ -8,4 +8,6 @@ RUN yum update -y && yum -y install \
         wget \
         unzip \
         git \
-        netcat
+        dnf
+
+RUN dnf install nmap
