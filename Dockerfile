@@ -10,4 +10,4 @@ RUN yum update -y && yum -y install \
         git \
         dnf
 
-RUN dnf install nmap
+RUN dnf install -y nmap
